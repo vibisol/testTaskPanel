@@ -1,0 +1,72 @@
+{
+  "menu": [
+    {
+      "img": "img/stuff1.png",
+      "title": "Сотовые панели №1",
+      "check": "Купить сейчас от 120 BYN!",
+      "arrow": "&rarr;"
+    },
+    {
+      "img": "img/stuff2.png",
+      "title": "Сотовые панели №2",
+      "check": "Купить сейчас от 100 BYN!",
+      "arrow": "&rarr;"
+    },
+    {
+      "img": "img/stuff3.png",
+      "title": "Сотовые панели №3",
+      "check": "Купить сейчас от 130 BYN!",
+      "arrow": "&rarr;"
+    }
+  ],
+  "requests": [
+    null,
+    {
+      "name": "vibisolo",
+      "email": "khatuncev98@mail.ru"
+    }
+  ],
+  "man_card": [
+    {
+      "img": "img/stuff1.png",
+      "title": "Сотовые панели №1",
+      "check": "120 BYN",
+      "arrow": "Купить",
+      "id": "1"
+    },
+    {
+      "img": "img/stuff2.png",
+      "title": "Сотовые панели №2",
+      "check": "130 BYN",
+      "arrow": "Купить",
+      "id": "2"
+    },
+    {
+      "img": "img/stuff3.png",
+      "title": "Сотовые панели №3",
+      "check": "100 BYN",
+      "arrow": "Купить",
+      "id": "3"
+    }
+  ],
+  "order": [
+    {
+      "inputPhone": "+375296522783",
+      "orderItems": {
+        "title": "Сотовые панели №3",
+        "count": "1:Сотовые панели №3",
+        "total": 100
+      },
+      "id": 1
+    },
+    {
+      "inputPhone": "+375296522783",
+      "orderItems": {
+        "title": "Сотовые панели №1",
+        "count": "1:Сотовые панели №1",
+        "total": 120
+      },
+      "id": 2
+    }
+  ]
+}
