@@ -132,6 +132,10 @@ getCatalog('http://localhost:3000/menu')
                    
                 }else{
                     stattusMessage.textContent = message.fail;
+                    setTimeout(()=>{
+                        stattusMessage.remove()
+                        ModalForm.style.display = 'none';
+                    },3000);
                 }
             });
 
